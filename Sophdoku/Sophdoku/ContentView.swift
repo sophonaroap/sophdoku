@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var puzzleManager = PuzzleManager()
+    @StateObject private var puzzleManager = PuzzleManager()
     
     var body: some View {
         VStack {
