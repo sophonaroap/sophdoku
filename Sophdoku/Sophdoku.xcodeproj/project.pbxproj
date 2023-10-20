@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A20E2BB12ADCD54C00304B50 /* SophdokuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20E2BB02ADCD54C00304B50 /* SophdokuApp.swift */; };
+		A20E2BB32ADCD54C00304B50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20E2BB22ADCD54C00304B50 /* ContentView.swift */; };
+		A20E2BB52ADCD54D00304B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20E2BB42ADCD54D00304B50 /* Assets.xcassets */; };
+		A20E2BB82ADCD54D00304B50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20E2BB72ADCD54D00304B50 /* Preview Assets.xcassets */; };
+		A20E2BC22ADCD54D00304B50 /* SophdokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20E2BC12ADCD54D00304B50 /* SophdokuTests.swift */; };
+		A20E2BCC2ADCD54D00304B50 /* SophdokuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20E2BCB2ADCD54D00304B50 /* SophdokuUITests.swift */; };
+		A20E2BCE2ADCD54D00304B50 /* SophdokuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20E2BCD2ADCD54D00304B50 /* SophdokuUITestsLaunchTests.swift */; };
+		A20E2BDD2ADCD62700304B50 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20E2BDC2ADCD62700304B50 /* SettingsView.swift */; };
+		A20E2BDF2ADCDD5200304B50 /* PuzzleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20E2BDE2ADCDD5200304B50 /* PuzzleManager.swift */; };
+		A20E2BE12ADF12A000304B50 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20E2BE02ADF12A000304B50 /* CellView.swift */; };
+		A20E2BE32ADF82FC00304B50 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20E2BE22ADF82FC00304B50 /* GameView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A20E2BBE2ADCD54D00304B50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A20E2BA52ADCD54C00304B50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A20E2BAC2ADCD54C00304B50;
+			remoteInfo = Sophdoku;
+		};
+		A20E2BC82ADCD54D00304B50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A20E2BA52ADCD54C00304B50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A20E2BAC2ADCD54C00304B50;
+			remoteInfo = Sophdoku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20E2BAD2ADCD54C00304B50 /* Sophdoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sophdoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20E2BB02ADCD54C00304B50 /* SophdokuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SophdokuApp.swift; sourceTree = "<group>"; };
+		A20E2BB22ADCD54C00304B50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20E2BB42ADCD54D00304B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20E2BB72ADCD54D00304B50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A20E2BBD2ADCD54D00304B50 /* SophdokuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SophdokuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20E2BC12ADCD54D00304B50 /* SophdokuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SophdokuTests.swift; sourceTree = "<group>"; };
+		A20E2BC72ADCD54D00304B50 /* SophdokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SophdokuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20E2BCB2ADCD54D00304B50 /* SophdokuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SophdokuUITests.swift; sourceTree = "<group>"; };
+		A20E2BCD2ADCD54D00304B50 /* SophdokuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SophdokuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A20E2BDC2ADCD62700304B50 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A20E2BDE2ADCDD5200304B50 /* PuzzleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleManager.swift; sourceTree = "<group>"; };
+		A20E2BE02ADF12A000304B50 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		A20E2BE22ADF82FC00304B50 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A20E2BAA2ADCD54C00304B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20E2BBA2ADCD54D00304B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20E2BC42ADCD54D00304B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A20E2BA42ADCD54C00304B50 = {
+			isa = PBXGroup;
+			children = (
+				A20E2BAF2ADCD54C00304B50 /* Sophdoku */,
+				A20E2BC02ADCD54D00304B50 /* SophdokuTests */,
+				A20E2BCA2ADCD54D00304B50 /* SophdokuUITests */,
+				A20E2BAE2ADCD54C00304B50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A20E2BAE2ADCD54C00304B50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20E2BAD2ADCD54C00304B50 /* Sophdoku.app */,
+				A20E2BBD2ADCD54D00304B50 /* SophdokuTests.xctest */,
+				A20E2BC72ADCD54D00304B50 /* SophdokuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A20E2BAF2ADCD54C00304B50 /* Sophdoku */ = {
+			isa = PBXGroup;
+			children = (
+				A20E2BB02ADCD54C00304B50 /* SophdokuApp.swift */,
+				A20E2BB22ADCD54C00304B50 /* ContentView.swift */,
+				A20E2BE22ADF82FC00304B50 /* GameView.swift */,
+				A20E2BE02ADF12A000304B50 /* CellView.swift */,
+				A20E2BDC2ADCD62700304B50 /* SettingsView.swift */,
+				A20E2BDE2ADCDD5200304B50 /* PuzzleManager.swift */,
+				A20E2BB42ADCD54D00304B50 /* Assets.xcassets */,
+				A20E2BB62ADCD54D00304B50 /* Preview Content */,
+			);
+			path = Sophdoku;
+			sourceTree = "<group>";
+		};
+		A20E2BB62ADCD54D00304B50 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A20E2BB72ADCD54D00304B50 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A20E2BC02ADCD54D00304B50 /* SophdokuTests */ = {
+			isa = PBXGroup;
+			children = (
+				A20E2BC12ADCD54D00304B50 /* SophdokuTests.swift */,
+			);
+			path = SophdokuTests;
+			sourceTree = "<group>";
+		};
+		A20E2BCA2ADCD54D00304B50 /* SophdokuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A20E2BCB2ADCD54D00304B50 /* SophdokuUITests.swift */,
+				A20E2BCD2ADCD54D00304B50 /* SophdokuUITestsLaunchTests.swift */,
+			);
+			path = SophdokuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A20E2BAC2ADCD54C00304B50 /* Sophdoku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20E2BD12ADCD54D00304B50 /* Build configuration list for PBXNativeTarget "Sophdoku" */;
+			buildPhases = (
+				A20E2BA92ADCD54C00304B50 /* Sources */,
+				A20E2BAA2ADCD54C00304B50 /* Frameworks */,
+				A20E2BAB2ADCD54C00304B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sophdoku;
+			productName = Sophdoku;
+			productReference = A20E2BAD2ADCD54C00304B50 /* Sophdoku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A20E2BBC2ADCD54D00304B50 /* SophdokuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20E2BD42ADCD54D00304B50 /* Build configuration list for PBXNativeTarget "SophdokuTests" */;
+			buildPhases = (
+				A20E2BB92ADCD54D00304B50 /* Sources */,
+				A20E2BBA2ADCD54D00304B50 /* Frameworks */,
+				A20E2BBB2ADCD54D00304B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A20E2BBF2ADCD54D00304B50 /* PBXTargetDependency */,
+			);
+			name = SophdokuTests;
+			productName = SophdokuTests;
+			productReference = A20E2BBD2ADCD54D00304B50 /* SophdokuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A20E2BC62ADCD54D00304B50 /* SophdokuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20E2BD72ADCD54D00304B50 /* Build configuration list for PBXNativeTarget "SophdokuUITests" */;
+			buildPhases = (
+				A20E2BC32ADCD54D00304B50 /* Sources */,
+				A20E2BC42ADCD54D00304B50 /* Frameworks */,
+				A20E2BC52ADCD54D00304B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A20E2BC92ADCD54D00304B50 /* PBXTargetDependency */,
+			);
+			name = SophdokuUITests;
+			productName = SophdokuUITests;
+			productReference = A20E2BC72ADCD54D00304B50 /* SophdokuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A20E2BA52ADCD54C00304B50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A20E2BAC2ADCD54C00304B50 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A20E2BBC2ADCD54D00304B50 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A20E2BAC2ADCD54C00304B50;
+					};
+					A20E2BC62ADCD54D00304B50 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A20E2BAC2ADCD54C00304B50;
+					};
+				};
+			};
+			buildConfigurationList = A20E2BA82ADCD54C00304B50 /* Build configuration list for PBXProject "Sophdoku" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A20E2BA42ADCD54C00304B50;
+			productRefGroup = A20E2BAE2ADCD54C00304B50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A20E2BAC2ADCD54C00304B50 /* Sophdoku */,
+				A20E2BBC2ADCD54D00304B50 /* SophdokuTests */,
+				A20E2BC62ADCD54D00304B50 /* SophdokuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A20E2BAB2ADCD54C00304B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20E2BB82ADCD54D00304B50 /* Preview Assets.xcassets in Resources */,
+				A20E2BB52ADCD54D00304B50 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20E2BBB2ADCD54D00304B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20E2BC52ADCD54D00304B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A20E2BA92ADCD54C00304B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20E2BB32ADCD54C00304B50 /* ContentView.swift in Sources */,
+				A20E2BDD2ADCD62700304B50 /* SettingsView.swift in Sources */,
+				A20E2BE12ADF12A000304B50 /* CellView.swift in Sources */,
+				A20E2BB12ADCD54C00304B50 /* SophdokuApp.swift in Sources */,
+				A20E2BDF2ADCDD5200304B50 /* PuzzleManager.swift in Sources */,
+				A20E2BE32ADF82FC00304B50 /* GameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20E2BB92ADCD54D00304B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20E2BC22ADCD54D00304B50 /* SophdokuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20E2BC32ADCD54D00304B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20E2BCE2ADCD54D00304B50 /* SophdokuUITestsLaunchTests.swift in Sources */,
+				A20E2BCC2ADCD54D00304B50 /* SophdokuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A20E2BBF2ADCD54D00304B50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A20E2BAC2ADCD54C00304B50 /* Sophdoku */;
+			targetProxy = A20E2BBE2ADCD54D00304B50 /* PBXContainerItemProxy */;
+		};
+		A20E2BC92ADCD54D00304B50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A20E2BAC2ADCD54C00304B50 /* Sophdoku */;
+			targetProxy = A20E2BC82ADCD54D00304B50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A20E2BCF2ADCD54D00304B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A20E2BD02ADCD54D00304B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A20E2BD22ADCD54D00304B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sophdoku/Preview Content\"";
+				DEVELOPMENT_TEAM = JQZZJUQNS6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophandcodes.Sophdoku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A20E2BD32ADCD54D00304B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sophdoku/Preview Content\"";
+				DEVELOPMENT_TEAM = JQZZJUQNS6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophandcodes.Sophdoku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A20E2BD52ADCD54D00304B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JQZZJUQNS6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophandcodes.SophdokuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sophdoku.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sophdoku";
+			};
+			name = Debug;
+		};
+		A20E2BD62ADCD54D00304B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JQZZJUQNS6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophandcodes.SophdokuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sophdoku.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sophdoku";
+			};
+			name = Release;
+		};
+		A20E2BD82ADCD54D00304B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JQZZJUQNS6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophandcodes.SophdokuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sophdoku;
+			};
+			name = Debug;
+		};
+		A20E2BD92ADCD54D00304B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JQZZJUQNS6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophandcodes.SophdokuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sophdoku;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A20E2BA82ADCD54C00304B50 /* Build configuration list for PBXProject "Sophdoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20E2BCF2ADCD54D00304B50 /* Debug */,
+				A20E2BD02ADCD54D00304B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A20E2BD12ADCD54D00304B50 /* Build configuration list for PBXNativeTarget "Sophdoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20E2BD22ADCD54D00304B50 /* Debug */,
+				A20E2BD32ADCD54D00304B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A20E2BD42ADCD54D00304B50 /* Build configuration list for PBXNativeTarget "SophdokuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20E2BD52ADCD54D00304B50 /* Debug */,
+				A20E2BD62ADCD54D00304B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A20E2BD72ADCD54D00304B50 /* Build configuration list for PBXNativeTarget "SophdokuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20E2BD82ADCD54D00304B50 /* Debug */,
+				A20E2BD92ADCD54D00304B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A20E2BA52ADCD54C00304B50 /* Project object */;
+}
