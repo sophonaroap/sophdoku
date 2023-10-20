@@ -8,8 +8,7 @@
 import SwiftUI
 
 struct CellView: View {
-    @ObservedObject var puzzleManager: PuzzleManager
-    @State var value: Int?
+    var currentValue: Int?
     
     var body: some View {
         ZStack {
@@ -18,8 +17,8 @@ struct CellView: View {
                 .aspectRatio(1, contentMode: .fit)
                 .foregroundStyle(Color.white)
             
-            if value != nil {
-                Text("\(value!)")
+            if currentValue != nil {
+                Text("\(currentValue!)")
                     .font(.system(size: 30))
                     .minimumScaleFactor(0.01)
             } else {
@@ -32,7 +31,7 @@ struct CellView: View {
 }
 
 #Preview {
-    CellView(puzzleManager: PuzzleManager(), value: 7)
+    CellView(currentValue: 7)
 }
 // struct CellView: View {
 //    @State var puzzleManager: PuzzleManager

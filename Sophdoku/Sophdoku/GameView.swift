@@ -23,12 +23,12 @@ struct GameView: View {
                     ForEach(0..<9) { row in
                         GridRow {
                             ForEach(0..<9) { col in
-                                CellView(puzzleManager: puzzleManager, value: puzzleManager.getIndex(index: (row * 9) + col))
+                                CellView(currentValue: puzzleManager.getIndex(index: (row * 9) + col))
                                     .onTapGesture {
                                         if currNum != nil {
                                             if puzzleManager.initialPuzzle?.puzzle![(row * 9) + col] == nil {
                                                 puzzleManager.setIndex(index: (row * 9) + col, value: currNum!)
-                                                print(puzzleManager.puzzle!)
+                                                
                                             }
                                         }
                                     }
@@ -36,6 +36,9 @@ struct GameView: View {
                         }
                     }
                 }
+                .onAppear(perform: {
+                    print(puzzleManager.puzzle![0...5])
+                })
                 .padding()
             } else {
                 ProgressView()

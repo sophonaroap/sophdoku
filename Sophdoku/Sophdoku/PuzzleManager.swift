@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct Puzzle: Codable {
     var difficulty: String
@@ -25,6 +26,7 @@ struct Puzzle: Codable {
 
 final class PuzzleManager: ObservableObject {
     @Published var initialPuzzle: Puzzle?
+    @Published var latestNumber: Int = 0
     @Published var puzzle: [Int?]?
     @Published var solution: [Int]?
     
@@ -36,6 +38,8 @@ final class PuzzleManager: ObservableObject {
         var new_puzzle = puzzle
         new_puzzle![index] = value
         puzzle = new_puzzle
+
+        latestNumber = value
     }
     
     func clearBoard() {
@@ -48,7 +52,7 @@ final class PuzzleManager: ObservableObject {
     }
         
     func getPuzzle(difficulty: String = "easy", completionHandler: @escaping (Puzzle) -> Void) {
-        print("Getting books")
+        print("\n\nGetting books")
         
         let url = URL(string: "https://octopus-app-2tf3v.ondigitalocean.app/sophdoku/\(difficulty.lowercased())")!
 
@@ -68,7 +72,7 @@ final class PuzzleManager: ObservableObject {
                 do {
                     let puzzle = try JSONDecoder().decode(Puzzle.self, from: data)
                     self.setPuzzle(puzzle: puzzle)
-                    print(self.puzzle!)
+//                    print(self.puzzle!)
                     
                     completionHandler(puzzle)
                 
@@ -104,7 +108,7 @@ final class PuzzleManager: ObservableObject {
             
             guard let httpResponse = response as? HTTPURLResponse,
                   (200...299).contains(httpResponse.statusCode) else {
-                print("Error with the response, unexpected status code: \(String(describing: response))")
+//                print("Error with the response, unexpected status code: \(String(describing: response))")
                 return
             }
             
